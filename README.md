@@ -74,7 +74,7 @@ curl https://<the api gateway url>/<your path>
 ```
 The url can be found in AWS portal or built like this:
 ```
-<lambda_integration.app_id>.execute-api.ap-southeast-2.amazonaws.com
+<lambda_integration.app_id>.execute-api.<aws region>.amazonaws.com
 ```
 where `lambda_integration.app_id` can be seen in the terraform output
 
